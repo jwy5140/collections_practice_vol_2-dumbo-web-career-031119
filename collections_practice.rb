@@ -28,6 +28,7 @@ def count_elements(arr)
   a.each {|x,y| ans.push({count: y, name: x})}
   ans
 end
+<<<<<<< HEAD
 
 def merge_data(keys,data)
   keys.each_with_index.collect {|x,y| x.merge(data[0][(keys[y][:first_name])])}
@@ -46,3 +47,6 @@ def organize_schools(hash)
   }
   ans
 end
+=======
+  
+>>>>>>> 8ac2b9679e77c15206e8f782bc6cdbfc0d866e23
